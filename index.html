@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Stage 2 Project</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+<!-- This is an HTML comment -->
+
+<head>
+  <title>Important Notes for Stage 2 project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Summary of Stage 2 Lessons</h1>
+  <p class="summary">
+    <a href="#L1">See Lesson 1.</a>
+  </p>
+  <p class="summary">
+    <a href="#L2">See Lesson 2.</a>
+  </p>
+  <p class="summary">
+    <a href="#L3">See Lesson 3.</a>
+  </p>
+  <p class="summary">
+    <a href="#L4">See Lesson 4.</a>
+  </p>
+  <p class="summary">
+    <a href="#L5">See Lesson 5.</a>
+  </p>
+  <p class="summary">
+    <a href="#L6">See Lesson 6.</a>
+  </p>
+  <div class="background">
+    <h1>Important Notes for Stage 2 Project</h1>
+    <div class="lesson">
+      <h2><a id="L1">Lesson 1: Introduction to "Serious" Programming</a></h2>
+      <div class="content">
+        <div class="content-description">
+          <h3>Computers</h3>
+          <p>Computers can be programmed to do anything we want, as long as we can write a program that specifies a specific sequence of instructions. </p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-description">
+          <h3>Computer Program</h3>
+          <p>A program is a precise sequence of steps that a computer can follow to do something useful. Web browsers, games, mobile apps, and simple print statements are all examples of computer programs.</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>Programming Language</h3>
+          <p>A programming language is what programmers use to tell a computer what to do. Python is one example of a programming language.</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-description">
+          <h3>Python</h3>
+          <p>Python is a programming language. When you write Python code and press "Run", a Python Interpreter converts the code you wrote as a set of instructions that the computer itself can understand and execute. </p>
+          <P class="bold"> Python language is case sensitive.</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>Grammar</h3>
+          <p>A grammar is a specification of what is "correct" and what is "incorrect." We have to write code that is exactly "correct" according to the Python interpreter, otherwise our code won't run.</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>Python Expressions</h3>
+          <p>A Python "expression" is a legal Python statement. For example: print 1 + 1 is a valid expression, but print 1 + (without a number at the end) is not.</p>
+        </div>
+      </div>
+    </div>
+    <div class="lesson">
+      <h2><a id="L2">Lesson 2: Variables and Strings</a></h2>
+      <div class="content">
+        <div class="content-description">
+          <h3>What is a variable in Python? 
+                    </h3>
+          <p>Variables give programmers a way to give names to values.</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>What does it meant to assign a value to a variable? How is it done?</h3>
+          <p>We can assign the value <span class="bold"> 2 </span> to the variable <span class="bold">my_variable </span></p>
+          <p> We can even change the value of a variable by re-assigning it to a different value later. </p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>What's the difference between what the equals sign means in <span class="bold"> 2 + 3 = 5</span> and <span class="bold">my_variable = 5</span>? </h3>
+          <p>In the line <span class="bold">2 + 3 = 5</span>, the equals sign means "is the same as". </p>
+          <p>In the line <span class="bold">my_variable = 5</span>, the equals sign means "takes the value of". </p>
+        </div>
+        <div class="content">
+          <div class="content-description">
+            <h3>What are some ways variables are useful? </h3>
+            <ul>
+              <li>They improve code readability by using names that make sense to humans.</li>
+              <li>They give us a way to store the value of important data.</li>
+              <li>They give us a way to change the value of something (like in the line days = days-1)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-description">
+            <h3>What is the difference between <span class="bold">2 + 2</span>  and <span class="bold">"2" + "2"</span> ?  </h3>
+            <p>In Python, <span class="bold">2 </span> is a number while <span class="bold">"2"</span> is a string. </p>
+            <p>The code <span class="bold">2 + 2</span> would give <span class="bold">4</span>. </p>
+            <p>The code <span class="bold">"2" + "2"</span> would give <span class="bold">"22"</span>. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lesson">
+      <h2><a id="L3">Lesson 3: Input -> Function -> Output </a></h2>
+      <div class="content">
+        <div class="content-description">
+          <h3>What is a function (Dave calls them "pro cedures")?</h3>
+          <p>A function is something that takes input, does something to that input, and then produces output.</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>What is the difference between making and using a function? </h3>
+          <p>Functions are made by starting a line of code with the keyword <span class="bold">def</span> and then giving a function name followed by the function parameters in parentheses. These parameters will eventually be replaced by actual values when
+            the function is used (called).</p>
+          <p>In the "body" of the function, we write the code that specifies what to do with the input parameters. </p>
+          <p>To use a function, we write the name of the function followed by the value(s) we want to give it in parentheses.</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>How do functions help programmers avoid repetition?   </h3>
+          <p>Functions are tools that programmers can create and reuse forever! Once you've defined a function once, you never have to define it again. </p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>What happens if a function doesn't have a return statement?  </h3>
+          <p>The <span class="bold">return</span> keyword tells Python exactly what the function should produce as output. If a function doesn't have a <span class="bold">return</span> statement,computer won't do anything. It will return <span class="bold">"None"</span>            as result.</p>
+        </div>
+      </div>
+    </div>
+    <div class="lesson">
+      <h2><a id="L4">Lesson 4: Control Flow & Loops:If and While </a></h2>
+      <div class="content">
+        <div class="content-description">
+          <h3>What is IF...ELSE Statement?</h3>
+          <p>The syntax of the if...else statement is −<br>
+            if test expression:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;statement(s)<br>
+            else:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;statement(s)<br>
+          </p>
+          <p>For IF statement, computer will return Boolean result-True or False. If condition is true, it will execute if code;otherwise, it will execute else code.
+          </p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>What is the While Statement? </h3>
+          <p> <span class="bold">While</span> is a loop statement. A loop statement allows us to execute a statement or group of statements multiple times. </p>
+          <p>While loop repeats a statement or group of statements while a given condition is TRUE. It tests the condition before executing the loop body. </p>
+          </div>
+      </div>
+      <div class="content">
+        <div class="content-description">
+          <h3>What is the Break Statement?</h3>
+          <p>Break Statement terminates the loop statement and transfers execution to the statement immediately following the loop. </p>
+        </div>
+      </div>
+    </div>
+    <div class="lesson">
+      <h2><a id="L5">Lesson 5: Debugging </a></h2>
+      <div class="content">
+        <div class="content-description">
+          <h3>What is debugging?</h3>
+          <p>Debugging is a methodical process of finding and reducing the number of bugs, or defects, in a computer program.</p>
+          <ol>
+            <li>Examine error messages when programs crash</li>
+            <li>Work from example code</li>
+            <li>Make sure examples work</li>
+            <li>Check (print) intermediate results</li>
+            <li>Keep and compare old versions</li>
+          </p>
+        </div>
+      </div>
+     </div>
+     <div class="lesson">
+      <h2><a id="L6">Lesson 6: Structured Data: Lists & For Loops </a></h2> 
+      <div class="content">
+        <div class="content-description">
+          <h3>For Loops </h3>
+
+          <P> <span class="bold">Lists</span> are sequences of data.</P>
+           <p> <span class="bold">For Loops</span> allow you to iterate over <span class="bold">Lists</span>.</p>
+
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

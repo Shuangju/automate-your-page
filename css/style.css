@@ -1,0 +1,58 @@
+/* This is a CSS comment */
+body {
+  padding: 20px 10px;
+	font-family: Helvetica;
+	max-width: 2000px;
+	margin: 1px auto;
+	font-size: 1.4em;
+}                 
+
+h1 {
+	padding: 10px 5px;
+  text-align: center;
+	color: blue;
+}
+
+p {
+	margin: 10px 0;
+}
+.background{
+  background-color: #CC0099;
+  border-radius: 15px;
+}
+.lesson {
+  background-color: #CCFFFF;
+	border-radius: 15px;
+	color: black;
+	padding: 15px;
+	margin: 30px auto;
+}
+
+h2 {
+	margin: 10px;
+}
+h3 {
+	margin: 10px;color:#CC0066;text-align: center;
+}
+
+.content {
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+.content-description {
+  background-color:#66FF66;
+  border-radius: 15px;
+	font-weight: lighter;
+	margin: 6px;
+}
+.summary{
+  text-align: center;
+  font-weight:bold;
+}
+.bold {font-weight: bold;
+  }
+.italic {
+  font-style:italic;
+}
